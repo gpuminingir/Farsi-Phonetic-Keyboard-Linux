@@ -33,32 +33,32 @@ xkb_symbols "pesq_part_basic" {
 
 	// Persian letters and symbols
 	key <AD01> { [ Arabic_qaf, Arabic_ghain ] }; // ق غ
-	key <AD02> { [ Arabic_waw ] }; // و
+	key <AD02> { [ Arabic_sheen ] }; // ش
 	key <AD03> { [ Arabic_ain ] }; // ع
 	key <AD04> { [ Arabic_ra ] }; // ر
-	key <AD05> { [ Arabic_teh,Arabic_tah ] }; // ت ط
+	key <AD05> { [ Arabic_teh, Arabic_tah ] }; // ت ط
 	key <AD06> { [ Farsi_yeh ] }; // ى
-	key <AD07> { [ Arabic_heh ] }; // ە
-	key <AD08> { [ Arabic_yeh ] }; // ي
-	key <AD09> { [ Arabic_zah ] }; // ظ
+	key <AD07> { [ Arabic_waw ] }; // و
+	key <AD08> { [ Farsi_yeh ] }; // ى
+	key <AD09> { [ Arabic_waw ] }; // و
 	key <AD10> { [ Arabic_peh ] }; // پ
 	key <AD11> { [ bracketright, braceleft ] }; // ] } {
 	key <AD12> { [ bracketleft, braceright ] }; // [ { }
 
 	key <AC01> { [ Arabic_alef, Arabic_maddaonalef, Arabic_maddaonalef ] }; // ا آ آ
-	key <AC02> { [ Arabic_seen, Arabic_sheen, Arabic_sad, Arabic_sad ] }; // س ش 
+	key <AC02> { [ Arabic_seen, Arabic_sad, Arabic_sheen, Arabic_sheen ] }; // س ص  ش 
 	key <AC03> { [ Arabic_dal, Arabic_thal ] }; // د ذ ذ
 	key <AC04> { [ Arabic_feh ] }; // ف
 	key <AC05> { [ Arabic_gaf, Arabic_ghain ] }; // گ
-	key <AC06> { [ Arabic_heh, Arabic_hah ] }; // ە ح ح
+	key <AC06> { [ Arabic_heh, Arabic_hah ] }; // ە ح ه
 	key <AC07> { [ Arabic_jeem, Arabic_jeh ] }; // ج ژ ژ
 	key <AC08> { [ Arabic_keheh ] }; // ک
 	key <AC09> { [ Arabic_lam ] }; // ل
 	key <AC10> { [ Arabic_semicolon, colon ] }; // ؛ : ։
 	key <AC11> { [ Arabic_comma, quotedbl, quotedbl ] }; // ، ” ”
 
-	key <AB01> { [ Arabic_zain, Arabic_dad, Arabic_zah ] }; // ز ض ض زخ
-	key <AB02> { [ Arabic_khah, Arabic_hamzaonalef, Arabic_hamzaunderalef ] }; // 
+	key <AB01> { [ Arabic_zain, Arabic_dad, Arabic_zah, Arabic_zah ] }; //  ض ض ز خ
+	key <AB02> { [ Arabic_khah, Arabic_zah ] }; // ظ خ
 	key <AB03> { [ Arabic_theh, Arabic_tcheh ] }; // چ ث
 	key <AB04> { [ Arabic_hamza, Arabic_waw ] }; // و
 	key <AB05> { [ Arabic_beh ] }; // ب
